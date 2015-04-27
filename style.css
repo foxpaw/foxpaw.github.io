@@ -79,6 +79,7 @@ body {
 
 /*--- content section - put whatever you want here ---*/
 #content {
+	margin:40px;
 	font: 1.2em Verdana, Arial, Helvetica, sans-serif;
 }
 h1 { font: 2.0em Georgia, serif;}
