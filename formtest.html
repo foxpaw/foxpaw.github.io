@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Style Inventory</title>
+     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+
+$(document).ready(function() {
+    $(".nov,.yesv,.noa,.yesa,.nok,.yesk").change(function() {        
+        $('.yes_resultsv').text($('.yesv:checked').length);
+        $('.yes_resultsa').text($('.yesa:checked').length);
+        $('.yes_resultsk').text($('.yesk:checked').length);
+        $('.no_resultsv').text($('.nov:checked').length);
+        $('.no_resultsa').text($('.noa:checked').length);
+        $('.no_resultsk').text($('.nok:checked').length);
+    });
+});
+//]]>
+    
+$(document).ready(function(){
+$("#ref_butn").click(function(){
+location.reload();
+});
+});
+
+</script>
+</head>
+
+<body>
+<h4>Learning Style Inventory</h4>
+<p>This informal survey helps to identify your learning style preference. Please read each statement very carefully.</p>
+    <ul>
+	<li>Select "<strong>yes</strong>" if the statement relates to you <strong>all or most</strong> of the time.</li>
+	<li>Check "<strong>no</strong>" if the statement <strong>seldom or never</strong> relates to you.</li>
+	<li>Your <em>quick, first reaction</em> to the question is usually your best response.</li>
+</ul>
+<table width="65%" border="1">
+<thead></thead>
+<tbody>
+<tr>
+<td></td>
+<td>YES</td>
+<td>NO</td>
+</tr>
+<tr>
+    <td>1. I like to listen and discuss work with partners</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup1" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup1" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>2. I learn by hearing my own voice on tape</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup2" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup2" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>3. I prefer to learn something new by reading it</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup3" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup3" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>4. I often write down the directions someone has given me so that I don’t forget them</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup4" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup4" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>5. I enjoy physical sports or exercise</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup5" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup5" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>6. I learn best when I can see new information in picture form</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup6" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup6" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>7. I am able to visualize easily</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup7" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup7" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>8. I learn best when someone talks or explains to me</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup8" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup8" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>9. I usually write things down so that I can look back at them later</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup9" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup9" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>10. If someone says a long word, I can count the syllables that I hear</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup10" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup10" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>11. I have a good memory for old songs or music</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup11" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup11" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>12. I like to discuss in small groups</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup12" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup12" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>13. I often remember the size, shape, and color of objects</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup13" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup13" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>14. I often repeat out loud the directions someone has given me</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup14" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup14" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>15. I enjoy working with my hands</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup15" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup15" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>16. I can remember faces of actors, settings, and other visual details of a movie seen in the past</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup16" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup16" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>17. I often use my hands and body movement when I’m explaining something</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup17" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup17" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>18. I prefer to practice redrawing diagrams on a chalkboard rather than on paper</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup18" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup18" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>19. I seem to learn better if I get up and move around while I study</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup19" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup19" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>20. If I wanted to assemble a bike, I would need pictures or diagrams to help with each step</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup20" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup20" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>21. I remember objects better when I have touched them or worked with them</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup21" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup21" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>22. I learn best by watching someone else first</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup22" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup22" class="nov" value="radio"></td>
+    </tr>
+<tr>
+    <td>23. I tap my fingers or my hands a lot while I am seated</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup23" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup23" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>24. I speak a foreign language</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup24" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup24" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>25. I enjoy building things</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup25" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup25" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>26. I can follow the plot of a story on the radio</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup26" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup26" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>27. I enjoy repairing things at home</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup27" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup27" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>28. I can understand a lecture when I hear it on tape</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup28" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup28" class="noa" value="radio"></td>
+    </tr>
+<tr>
+    <td>29. I am good at using machines or tools</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup29" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup29" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>30. I find sitting still for very long difficult</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup30" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup30" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>31. I enjoy acting or doing pantomimes</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup31" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup31" class="nok" value="radio"></td>
+    </tr>
+<tr>
+    <td>32. I can easily see patterns in designs</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup32" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup32" class="nov" value="radio"></td>
+</tr>
+<tr>
+<td>33. I need frequent breaks to move around</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup33" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup33" class="nok" value="radio"></td>
+</tr>
+<tr>
+<td>34. I like to recite or write poetry</td>
+<td><input id="RadioGroup1_1" type="radio" name="RadioGroup34" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup34" class="noa" value="radio"></td>
+<tr>
+<td>35. I can usually understand people with different accents</td>
+<td><input id="RadioGroup1_1" type="radio" name="RadioGroup35" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup35" class="noa" value="radio"></td>
+<tr>
+<td>36. I can hear many different pitches or melodies in music</td>
+<td><input id="RadioGroup1_1" type="radio" name="RadioGroup36" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup36" class="noa" value="radio"></td>
+<tr>
+<td>37. I like to dance and create new movements or steps</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup37" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup37" class="nok" value="radio"></td>
+<tr>
+<td>38. I participate in activities that require physical coordination</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup38" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup38" class="nok" value="radio"></td>
+<tr>
+<td>39. I follow written directions better than oral ones</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup39" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup39" class="nov" value="radio"></td>
+<tr>
+<td>40. I can easily recognize differences between similar sounds</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup40" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup40" class="noa" value="radio"></td>
+<tr>
+<td>41. I like to create or use jingles/rhymes to learn</td>
+<td><input id="RadioGroup1_1" type="radio" name="RadioGroup41" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup41" class="noa" value="radio"></td>
+<tr>
+<td>42. I prefer classes with hands-on experiences</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup42" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup42" class="nok" value="radio"></td>
+<tr>
+<td>43. I can quickly tell if two geometric shapes are identical</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup43" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup43" class="nov" value="radio"></td>
+<tr>
+<td>44. The things I remember best are the things I have seen in print or pictures</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup44" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup44" class="nov" value="radio"></td>
+<tr>
+<td>45. I follow oral directions better than written ones</td>
+<td><input id="RadioGroup1_1" type="radio" name="RadioGroup45" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup45" class="noa" value="radio"></td>
+<tr>
+<td>46. I can learn the names of 15 medical instruments more easily if I can touch and examine them</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup46" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup46" class="nok" value="radio"></td>
+<tr>
+<td>47. I remember details better when I say them aloud</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup47" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup47" class="noa" value="radio"></td>
+<tr>
+<td>48. I can look at a shape and copy it correctly on paper</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup48" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup48" class="nov" value="radio"></td>
+<tr>
+<td>49. I can usually read a map without difficulty</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup49" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup49" class="nov" value="radio"></td>
+<tr>
+<td>50. I can "hear" a person's exact words and tone of voice days after he or she has spoken to me</td>
+<td><input id="RadioGroup1_1" type="radio" name="RadioGroup50" class="yesa" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup50" class="noa" value="radio"></td>
+<tr>
+<td>51. I remember directions best when given landmarks, such as specific buildings and trees</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup51" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup51" class="nov" value="radio"></td>
+<tr>
+<td>52. I have a good eye for colors and color combinations</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup52" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup52" class="nov" value="radio"></td>
+<tr>
+<td>53. I like to paint, draw, sculpt, or be creative with my hands</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup53" class="yesk" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup53" class="nok" value="radio"></td>
+<tr>
+<td>54. I can vividly picture the details of a meaningful past experience</td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup54" class="yesv" value="radio"></td>
+    <td><input id="RadioGroup1_1" type="radio" name="RadioGroup54" class="nov" value="radio"></td>
+</tr>
+</tbody>
+</table>
+<h4>Scoring Your Profile</h4>
+
+<p><span class="yes_resultsv">0</span> Strong Visual &ndash; <span class="no_resultsv">0</span> Weak Visual</p>
+<p><span class="yes_resultsa">0</span> Strong Auditory &ndash; <span class="no_resultsa">0</span> Weak Auditory</p>
+<p><span class="yes_resultsk">0</span> Strong Kinesthetic &ndash; <span class="no_resultsk">0</span> Weak Kinesthetic</p>
+    <ol>
+        <li>The highest score indicates your <em>preference</em>. The lowest score indicates your weakest modality.</li>
+        <li>If your two highest scores are the same, or very close, both of these modalities may be your preference.</li>
+        <li>If all three of your scores are identical, you have truly integrated all three modalities and can work equally well in any of them.</li>
+        <li>Scores that are 10 or higher indicate the modality is <strong>most frequently used</strong> by you.</li>
+        <li>Scores that fall into the "weak" category indicate a modality that is not highly used. At this point, it may be important to examine why. One reason may be that you have a physucal or neruological impairment that makes using the modaility difficult or impossible. A second reason (which is more likely) may indicate that you have had limited experience learning how to use the modaility effectively as you learn. In this case, learning new strategies can strengthen your use of the modality.</li>
+    </ol>
+    <p><button id="ref_butn">Refresh/Reset the page</button></p>
+    
+<p><em>Adapted from: Wong, L. (2000). Essential study skills (3rd ed.). Boston, MA: Houghton Mifflin.    
+</em></p></body>
+</html>
+<script></script>
